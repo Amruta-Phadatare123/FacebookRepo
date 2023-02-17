@@ -49,7 +49,7 @@ WebDriver driver;
 	
 	@BeforeClass
 	public void openBrowser() {
-		System.out.println("Before Class");
+		System.out.println("Before Class");System.out.println("Before Class");System.out.println("Before Class");
 	
 	}
 	
