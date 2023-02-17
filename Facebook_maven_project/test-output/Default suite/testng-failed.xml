@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="testNgPack.TestNgClass">
+        <methods>
+          <include name="verifyTermsLink"/>
+          <include name="verifycookiespolicylink"/>
+          <include name="verifyprivacypolicylink"/>
+          <include name="afterClass"/>
+          <include name="openSignUpPage"/>
+          <include name="openBrowser"/>
+          <include name="closedCurrentTab"/>
+        </methods>
+      </class> <!-- testNgPack.TestNgClass -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

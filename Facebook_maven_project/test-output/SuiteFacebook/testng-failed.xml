@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Failed suite [SuiteFacebook]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="Chrome(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="testNgPack.TestNgFormClass">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="verifypassword"/>
+          <include name="openSignUpPage"/>
+          <include name="verifymonthdropdown"/>
+          <include name="verifymaleRadioButton"/>
+          <include name="verifydaydropdown"/>
+          <include name="verifyyeardropdown"/>
+          <include name="verifyFirstname"/>
+          <include name="afterClass"/>
+          <include name="verifyMoblieNo"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="verifyLastName"/>
+        </methods>
+      </class> <!-- testNgPack.TestNgFormClass -->
+      <class name="testNgPack.TestNgClass">
+        <methods>
+          <include name="verifycookiespolicylink"/>
+          <include name="verifyprivacypolicylink"/>
+          <include name="afterClass"/>
+          <include name="openSignUpPage"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- testNgPack.TestNgClass -->
+    </classes>
+  </test> <!-- Chrome(failed) -->
+  <test thread-count="5" parallel="classes" name="Firefox(failed)">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="testNgPack.TestNgFormClass">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="verifypassword"/>
+          <include name="openSignUpPage"/>
+          <include name="verifymonthdropdown"/>
+          <include name="verifymaleRadioButton"/>
+          <include name="verifydaydropdown"/>
+          <include name="verifyyeardropdown"/>
+          <include name="verifyFirstname"/>
+          <include name="afterClass"/>
+          <include name="verifyMoblieNo"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="verifyLastName"/>
+        </methods>
+      </class> <!-- testNgPack.TestNgFormClass -->
+      <class name="testNgPack.TestNgClass">
+        <methods>
+          <include name="verifycookiespolicylink"/>
+          <include name="verifyprivacypolicylink"/>
+          <include name="afterClass"/>
+          <include name="openSignUpPage"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- testNgPack.TestNgClass -->
+    </classes>
+  </test> <!-- Firefox(failed) -->
+</suite> <!-- Failed suite [SuiteFacebook] -->
