@@ -162,7 +162,7 @@ WebDriver driver;
 	}
 	@AfterClass
 	public void afterClass() {
-		System.out.println("After Class");
+		System.out.println("After Class");System.out.println("After Class");System.out.println("After Class");
 		driver.quit();
 	}
 
